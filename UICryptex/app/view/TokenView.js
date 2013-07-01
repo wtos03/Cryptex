@@ -1,5 +1,5 @@
-Ext.define('Cryptex.View.TokenView', {
-    extend: 'Ext.tab.formPanel',
+Ext.define('UICryptex.view.TokenView', {
+    extend: 'Ext.form.FormPanel',
    
     config: {
       

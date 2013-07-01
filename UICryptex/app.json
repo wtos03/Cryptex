@@ -2,7 +2,7 @@
     /**
      * The application's namespace, used by Sencha Command to generate classes
      */
-    "name": "UI",
+    "name": "UICryptex",
 
     /**
      * The file path to this application's front HTML document, relative to this app.json file
@@ -40,7 +40,7 @@
      */
     "js": [
         {
-            "path": "../../../touch/sencha-touch.js",
+            "path": "touch/sencha-touch.js",
             "x-bootstrap": true
         },
         {

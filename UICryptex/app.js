@@ -15,13 +15,13 @@
 
 //<debug>
 Ext.Loader.setPath({
-    'Ext': './touch/src',
-    'UI': 'app'
+    'Ext': 'touch/src',
+    'UICryptex': 'app'
 });
 //</debug>
 
 Ext.application({
-    name: 'UI',
+    name: 'UICryptex',
 
     requires: [
         'Ext.MessageBox'
@@ -54,7 +54,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('UI.view.Main'));
+        Ext.Viewport.add(Ext.create('UICryptex.view.Main'));
     },
 
     onUpdated: function() {
