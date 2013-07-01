@@ -9,7 +9,7 @@
     changes and its generated code, it will produce a "merge conflict" that you
     will need to resolve manually.
 */
-
+// Add some comments  test with git
 // DO NOT DELETE - this directive is required for Sencha Cmd packages to work.
 //@require @packageOverrides
 
